@@ -47,10 +47,10 @@ RM = "E:\Program Files\JetBrains\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\cpp
+CMAKE_SOURCE_DIR = E:\cpp\cmdcopy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\cpp\cmake-build-debug
+CMAKE_BINARY_DIR = E:\cpp\cmdcopy\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmake-build-debug\CMakeFiles E:\cpp\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmdcopy\cmake-build-debug\CMakeFiles E:\cpp\cmdcopy\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmdcopy\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cpp
+# Target rules for targets named cmdcopy
 
 # Build rule for target.
-cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 cpp
-.PHONY : cpp
+cmdcopy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 cmdcopy
+.PHONY : cmdcopy
 
 # fast build rule for target.
-cpp/fast:
-	$(MAKE) -f CMakeFiles\cpp.dir\build.make CMakeFiles/cpp.dir/build
-.PHONY : cpp/fast
+cmdcopy/fast:
+	$(MAKE) -f CMakeFiles\cmdcopy.dir\build.make CMakeFiles/cmdcopy.dir/build
+.PHONY : cmdcopy/fast
 
 main.obj: main.cpp.obj
 
@@ -128,7 +128,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) -f CMakeFiles\cpp.dir\build.make CMakeFiles/cpp.dir/main.cpp.obj
+	$(MAKE) -f CMakeFiles\cmdcopy.dir\build.make CMakeFiles/cmdcopy.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -137,7 +137,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles\cpp.dir\build.make CMakeFiles/cpp.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles\cmdcopy.dir\build.make CMakeFiles/cmdcopy.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -146,7 +146,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles\cpp.dir\build.make CMakeFiles/cpp.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles\cmdcopy.dir\build.make CMakeFiles/cmdcopy.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -155,7 +155,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... cpp
+	@echo ... cmdcopy
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main.obj

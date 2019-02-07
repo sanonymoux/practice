@@ -44,7 +44,8 @@ void walkdir(char * path, char runPath){
 
         /* print all the files and directories within directory */
         /* addition 1 to sep */
-        sep++;
+//        sep++;
+
 
         /* readdir reads every files and folders in dir until it become null*/
         while ((ent = readdir (dir)) != NULL ) {
@@ -52,14 +53,14 @@ void walkdir(char * path, char runPath){
 
             /* . and .. used for this and parent directory so we filter these here*/
             if(*(ent->d_name)=='.'
-            || strstr(ent->d_name,"Windows")
-            || strstr(ent->d_name,"Program")
-            || strstr(ent->d_name,"Temp")
-            || strstr(ent->d_name,"temp")
-            || strstr(ent->d_name,"Data")
-            || strstr(ent->d_name,"App")
-            || strstr(ent->d_name,"Visual")
-            || strstr(ent->d_name,"windows"))
+               || strstr(ent->d_name,"Windows")
+               || strstr(ent->d_name,"Program")
+               || strstr(ent->d_name,"Temp")
+               || strstr(ent->d_name,"temp")
+               || strstr(ent->d_name,"Data")
+               || strstr(ent->d_name,"App")
+               || strstr(ent->d_name,"Visual")
+               || strstr(ent->d_name,"windows"))
                 continue;
 
 

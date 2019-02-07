@@ -58,45 +58,45 @@ RM = "E:\Program Files\JetBrains\CLion 2018.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\cpp
+CMAKE_SOURCE_DIR = E:\cpp\cmdcopy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\cpp\cmake-build-debug
+CMAKE_BINARY_DIR = E:\cpp\cmdcopy\cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/cpp.dir
+# Target rules for target CMakeFiles/cmdcopy.dir
 
 # All Build rule for target.
-CMakeFiles/cpp.dir/all:
-	$(MAKE) -f CMakeFiles\cpp.dir\build.make CMakeFiles/cpp.dir/depend
-	$(MAKE) -f CMakeFiles\cpp.dir\build.make CMakeFiles/cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cpp\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target cpp"
-.PHONY : CMakeFiles/cpp.dir/all
+CMakeFiles/cmdcopy.dir/all:
+	$(MAKE) -f CMakeFiles\cmdcopy.dir\build.make CMakeFiles/cmdcopy.dir/depend
+	$(MAKE) -f CMakeFiles\cmdcopy.dir\build.make CMakeFiles/cmdcopy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\cpp\cmdcopy\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target cmdcopy"
+.PHONY : CMakeFiles/cmdcopy.dir/all
 
 # Include target in all.
-all: CMakeFiles/cpp.dir/all
+all: CMakeFiles/cmdcopy.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmake-build-debug\CMakeFiles 0
-.PHONY : CMakeFiles/cpp.dir/rule
+CMakeFiles/cmdcopy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmdcopy\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cmdcopy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\cpp\cmdcopy\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/cmdcopy.dir/rule
 
 # Convenience name for target.
-cpp: CMakeFiles/cpp.dir/rule
+cmdcopy: CMakeFiles/cmdcopy.dir/rule
 
-.PHONY : cpp
-
-# clean rule for target.
-CMakeFiles/cpp.dir/clean:
-	$(MAKE) -f CMakeFiles\cpp.dir\build.make CMakeFiles/cpp.dir/clean
-.PHONY : CMakeFiles/cpp.dir/clean
+.PHONY : cmdcopy
 
 # clean rule for target.
-clean: CMakeFiles/cpp.dir/clean
+CMakeFiles/cmdcopy.dir/clean:
+	$(MAKE) -f CMakeFiles\cmdcopy.dir\build.make CMakeFiles/cmdcopy.dir/clean
+.PHONY : CMakeFiles/cmdcopy.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cmdcopy.dir/clean
 
 .PHONY : clean
 
