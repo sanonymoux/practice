@@ -29,7 +29,7 @@
 using namespace std;
 
 /* sep is using for insert space before each branch */
-int sep=-1;
+//int sep=-1;
 
 
 /* walkdir walking to all directories */
@@ -47,11 +47,14 @@ void walkdir(char * path, char runPath){
 //        sep++;
 
 
-        /* readdir reads every files and folders in dir until it become null*/
+        /** readdir reads every files and folders in dir until it become null
+         * actually dir is static and if i insert a readdir(dir) after while
+         * it ignore a sub_directory
+         */
         while ((ent = readdir (dir)) != NULL ) {
 
 
-            /* . and .. used for this and parent directory so we filter these here*/
+            /* . and .. used for this and parent directory so we filter these here */
             if(*(ent->d_name)=='.'
                || strstr(ent->d_name,"Windows")
                || strstr(ent->d_name,"Program")
@@ -83,7 +86,7 @@ void walkdir(char * path, char runPath){
         }
 
         /* after while for a dir we decrease sep and close dir*/
-        sep--;
+//        sep--;
         closedir (dir);
 
     } else {
@@ -105,11 +108,13 @@ void walkdir(char * path, char runPath){
 int main()
 {
 
-    /* by 3 line below we get the root directory */
-    /* and save it to runPath */
+    /** by 3 line below we get the root directory and save it to runPath
+     *  https://docs.microsoft.com/en-us/windows/desktop/api/libloaderapi/nf-libloaderapi-getmodulefilenamea
+     */
     char runPath;
     char result[ MAX_PATH ];
-    runPath = string( result, GetModuleFileName( NULL, result, MAX_PATH ) ).front();
+    GetModuleFileName( NULL, result, MAX_PATH );
+    runPath = result[0];
 
 
     /* run walkdir for every directories */
