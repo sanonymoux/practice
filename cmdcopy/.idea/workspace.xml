@@ -13,8 +13,16 @@
   <component name="ChangeListManager">
     <list default="true" id="eeb234ec-6990-44eb-b137-8735aaa4de36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmdcopy.dir/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmdcopy.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmdcopy.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmdcopy.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmdcopy.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmdcopy.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmdcopy.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex/cmake-build-debug/CMakeFiles/ex.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../ex/cmake-build-debug/CMakeFiles/ex.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex/cmake-build-debug/CMakeFiles/ex.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../ex/cmake-build-debug/CMakeFiles/ex.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex/cmake-build-debug/CMakeFiles/ex.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../ex/cmake-build-debug/CMakeFiles/ex.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex/cmake-build-debug/ex.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../ex/cmake-build-debug/ex.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ex/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +33,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1271">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/dirent.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -48,10 +75,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -89,22 +113,27 @@
       <updated>1549566674946</updated>
       <workItem from="1549566676767" duration="199000" />
       <workItem from="1549570184210" duration="351000" />
+      <workItem from="1549572705112" duration="168000" />
+      <workItem from="1551812768524" duration="1597000" />
+      <workItem from="1551953536106" duration="597000" />
+      <workItem from="1552160576845" duration="41000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="550000" />
+    <option name="totallyTimeSpent" value="2953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15708502" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16194332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="CMake" order="0" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="3" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="6" />
@@ -117,7 +146,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Run" order="4" weight="0.32793522" />
+      <window_info anchor="right" id="Run" order="4" weight="0.3319838" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,8 +158,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="-1271">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include/dirent.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
         </state>
       </provider>
     </entry>

